@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>com.rick.testPlugin</id>
+    <name>test name</name>
+    <vendor email="861506831@qq.com" url="http://www.baidu.com">rick</vendor>
+
+    <description>123123241341324123413241233334123412312412341234123</description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <!-- 配置 File -> Settings -> Tools -->
+        <projectConfigurable groupId="tools" displayName="My Test Config" id="test.id"
+          instance="com.rick.plugin.factory.SettingFactory"/>
+
+        <!-- 窗体 (IDEA 界面右侧) -->
+        <toolWindow id="Read-Book" secondary="false" anchor="right"
+          factoryClass="com.rick.plugin.factory.ReadFactory"/>
+    </extensions>
+
+<!--    <actions>-->
+<!--        <action id="MyAction" class="com.rick.plugin.MyAction" text="MyAction" description="MyAction">-->
+<!--            <add-to-group group-id="FileMenu" anchor="first"/>-->
+<!--        </action>-->
+<!--    </actions>-->
+</idea-plugin>

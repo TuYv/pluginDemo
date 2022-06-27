@@ -1,0 +1,17 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="junit-to-android-junit-configurations" />
+  </applied-converters>
+  <project-files>
+    <f p="./design-pattern/design-pattern.iml" t="1653818139" />
+    <f p="./learning.iml" t="1653818139" />
+    <f p="./.idea/vcs.xml" t="1626538251" />
+    <f p="./.idea/compiler.xml" t="1637246267" />
+    <f p="./.idea/modules.xml" t="1637075464" />
+    <f p="./.idea/workspace.xml" t="1654361609" />
+    <f p="./.idea/jarRepositories.xml" t="1626538251" />
+    <f p="./.idea/encodings.xml" t="1637075464" />
+    <f p="./.idea/misc.xml" t="1637077477" />
+  </project-files>
+</conversion>

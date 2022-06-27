@@ -1,0 +1,13 @@
+com/rick/plugin/ui/SettingUI.java
+ com.rick.plugin.ui.SettingUI
+com.rick.plugin/MyAction.java
+ com.rick.plugin.MyAction
+com/rick/plugin/factory/ReadFactory.java
+ com.rick.plugin.factory.ReadFactory
+com/rick/plugin/Config.java
+ com.rick.plugin.Config
+com/rick/plugin/factory/SettingFactory.java
+ com.rick.plugin.factory.SettingFactory
+com/rick/plugin/ui/ReadUI.java
+ com.rick.plugin.ui.ReadUI
+ com.rick.plugin.ui.ReadUI$1
