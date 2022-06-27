@@ -41,6 +41,7 @@ public class ReadUI {
             JFileChooser fileChooser = new JFileChooser();
             fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
             fileChooser.showOpenDialog(settingPanel);
+
             File file = fileChooser.getSelectedFile();
             urlTextField.setText(file.getPath());
 
